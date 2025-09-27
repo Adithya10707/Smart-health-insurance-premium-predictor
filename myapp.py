@@ -86,7 +86,7 @@ if submit:
     prediction = model.predict(features)
 
     st.success(f"💰 Estimated Insurance Premium: ₹ {prediction[0]:,.2f}")
-=======
+
 import streamlit as st
 import numpy as np
 import joblib
