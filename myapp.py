@@ -12,7 +12,7 @@ model = load_model()
 st.title("🩺 Smart Health Insurance Premium Predictor for Apex Insure")
 
 # --- FORM for inputs ---
-with st.form(insurance_form):
+with st.form("insurance_form"):
     st.header("📝 Enter Customer Details")
 
     age = st.slider("Age", min_value=18, max_value=100, value=27, step=1)
