@@ -4,7 +4,7 @@ import joblib
 
 # Load trained model
 def load_model():
-    return joblib.load("model1.pkl")
+    return joblib.load("model.pkl")
 
 model = load_model()
 
